@@ -60,7 +60,7 @@ const resetGame = function(){
     squareValues = ['', '', '', '', '', '', '', '', ''];
   let imgs = document.querySelectorAll('img').forEach(img => img.src = '')
   // console.log(imgs)
-  })
+  });
 }
 
 window.addEventListener('DOMContentLoaded', () => {
